@@ -12,7 +12,7 @@
         <table role="presentation" border="0" cellpadding="0" cellspacing="0">
           <tbody>
             <tr>
-              <td> <a href="http://www.gconte.com.br" target="_blank">Verificar</a> </td>
+              <td> <a href="{{ config('app.portal_url') }}/verificar-email?token={{ $user->token }}" target="_blank">Verificar E-mail</a> </td>
             </tr>
           </tbody>
         </table>
